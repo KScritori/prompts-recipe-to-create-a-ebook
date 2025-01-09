@@ -7,7 +7,7 @@ Projeto com o objetivo de gerar um ebook digital com as facilidades das ferramen
 ## 💻 Tecnologias utilizadas no projeto
 
 - [ChatGPT](https://chat.openai.com/) 
-- [MidJourney](https://www.midjourney.com/app/)
+- [LeonardoAI](https://app.leonardo.ai/)
 - [PowerPoint](https://www.microsoft.com/en/microsoft-365/powerpoint)
 
 ## 🧠 Prompts
@@ -17,29 +17,25 @@ ChatGPT：
 
 |   Ação   | prompt                                                                                                                                                                                                                                                                         |
 | :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  título  | Crie um título de um ebook sobre o tema de css, o ebookk é do nicho de programação e o subnicho é de css, o título deve ser épico e curto, e tenha uma temática de star wars no título, me liste 5 variações de títulos                                                        |
-| conteúdo | Faça um texto para ebook , com foco em CSS, listando os principais seletores CSS com exemplos em código {REGRAS} Explique sempre de uma maneira simples Deixe o texto enxuto, Sempre traga exemplos de código em contextos reais , sempre deixe um título sugestivo por tópico |
+|  título  | Crie um título de e-book sobre o tema "Temperos do Mundo". O e-book é sobre o tema gastronomia, sub-tema sobre como temperar os alimentos. O título deve ser curto e chamativo, com uma temática divertida. Liste 5 opções de títulos.|
+| conteúdo | Faça um texto para esse e-book, utilizando o título 5, com foco nos 10 temperos mais utilizados mundialmente, e com receitas utilizando cada tempero. {REGRAS} > Explique sempre de maneira simples > Deixe o texto enxuto |
 
 
-Midjourney：
+LeonardoAI：
 
 |  Ação  | prompt                                                                                 |
 | :----: | -------------------------------------------------------------------------------------- |
-| título | A jedi in meditation pose, with your blue lightsaber floating, pixel art style --v 5.1 |
+| título | Diversas colheres com temperos do mundo. Imagem em estilo de foto real, bem colorida. |
 
 ## ✨ Features
 
 - Conteúdo gerado via ChatGPT
-- Imagens geradas via MidJourney
+- Imagens geradas via LeonardoAI
 
 ## 📚 Materiais
 
 - Imagens utilizadas em `assets`
-- ebook gerado durante as aulas em `output`
-
-## 🛠️ Instruções de execução
-
-Utilize os prompts acima nas ferramentas sugeridas para gerar o material base e utilize uma ferramenta de edição de documentos como power point, libreoffice , indesign para diagramação.
+- Ebook gerado em `output`
 
 ## 👨‍💻 Expert
 
